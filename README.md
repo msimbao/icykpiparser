@@ -1,2 +1,3 @@
-# icykpiparser
-A simple Parser for the labGuru API to extract the KPIs for the Biolab group
+# Stock Reader
+
+QR Code scanning system to quickly add/subtract stocks in biolab

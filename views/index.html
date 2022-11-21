@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Stock Editor</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Setup the webpage's stylesheet -->
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <!-- Import the webpage's javascript file -->
+    <script src="/public/js/script.js" ></script>
+    <!-- <script src="/public/js/jquery.js" ></script> -->
+    <!-- Setup the Webpage's Javascript file -->
+
+  </head>
+  <body>
+    <div id="container">
+        <h3>Stock 
+            <b class="gradient">
+                Editor
+            </b>
+        </h3>
+        <!-- <div>Stock ID: <p id="id">Stock ID</p></div> -->
+        <form action="/action_page.php">
+            <label for="fname">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="lname">Password:</label>
+            <input type="text" id="password" name="password"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        <div >      
+            <button onclick="addCode()">Add Stuff</button>
+            <button onclick="makePUTrequest()">
+                Submit
+            </button>
+        </div>
+    </div>
+
+    <div id="add_to_me">
+        <h1>GeeksforGeeks</h1>
+        <p>This is the text which has already been typed into the div</p>
+    </div>
+  
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+  </body>
+</html>
